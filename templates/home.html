@@ -1,0 +1,20 @@
+<html>
+    <body bgcolor="gold">
+        <center>
+          <b>  Affine-Cipher </b>
+        <br>
+        <br>
+        The affine cipher is a type of monoalphabetic substitution cipher, wherein each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter.
+        The formula used means that each letter encrypts to one other letter, and back again, meaning the cipher is essentially a standard substitution cipher with a rule governing which letter goes to which.
+        
+        <br><br>
+        <form action="{{ url_for('affine_en') }}">
+            <button type="submit">Encryption</button>
+        </form>   <br>
+        <form action="{{ url_for('affine_de') }}">
+                <button type="submit">Decryption</button>
+        </form>
+        </center>
+
+    </body>
+</html>
